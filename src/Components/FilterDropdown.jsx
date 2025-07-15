@@ -8,9 +8,9 @@ const FilterDropdown = ({ selected, onChange }) => {
       className="ml-4 mt-50 p-2 border"
     >
       <option value="">All</option>
-      <option value="movie">Movie</option>
+      <option value="movie">Movies</option>
       <option value="series">Series</option>
-      <option value="episode">Episode</option>
+      <option value="episode">Episodes</option>
     </select>
   );
 };
