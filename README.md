@@ -8,7 +8,6 @@ A full-featured movie search application built with React.js, styled using Tailw
 
 - OMDB API : https://www.omdbapi.com/?i=tt3896198&apikey=e895cb9c
 
-
 ---
 
 ## ✨ Features:
@@ -54,12 +53,11 @@ A full-featured movie search application built with React.js, styled using Tailw
 
 - Links to:
 
-    - Home (/)
+  - Home (/)
 
-    - Favorites (/favorites)
+  - Favorites (/favorites)
 
 - Visible on all pages
-
 
 🔹 SearchBar
 
@@ -67,13 +65,11 @@ A full-featured movie search application built with React.js, styled using Tailw
 
 - Controlled component with event handler
 
-
 🔹 FilterDropdown
 
 - Dropdown to filter by movie type
 
 - Triggers new API calls when changed
-
 
 🔹 MovieList
 
@@ -81,13 +77,11 @@ A full-featured movie search application built with React.js, styled using Tailw
 
 - Includes pagination controls
 
-
 🔹 MovieCard
 
 - Displays title, poster, and year
 
 - Clickable to open full details
-
 
 🔹 MovieDetails
 
@@ -95,13 +89,11 @@ A full-featured movie search application built with React.js, styled using Tailw
 
 - Uses useParams to get movie ID from route
 
-
 🔹 Favorites
 
 - Shows all favorited movies
 
 - Option to remove items
-
 
 🔹 Footer
 
@@ -156,6 +148,3 @@ A full-featured movie search application built with React.js, styled using Tailw
 - Email: vignesh212000@gmail.com
 
 ---
-
-
-

@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import MovieCard from '../Components/MovieCard';
+import { useEffect, useState } from "react";
+import MovieCard from "../Components/MovieCard";
 
 export default function Favorites() {
   const [favorites, setFavorites] = useState([]);
 
   const loadFavorites = () => {
-    const favs = JSON.parse(localStorage.getItem('favorites')) || [];
+    const favs = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(favs);
   };
 
@@ -19,9 +19,13 @@ export default function Favorites() {
       {favorites.length === 0 ? (
         <p>You have no favorite movies yet.</p>
       ) : (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {favorites.map((movie) => (
-            <MovieCard key={movie.imdbID} movie={movie} onFavoriteChange={loadFavorites} />
+            <MovieCard
+              key={movie.imdbID}
+              movie={movie}
+              onFavoriteChange={loadFavorites}
+            />
           ))}
         </div>
       )}
